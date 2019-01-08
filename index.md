@@ -53,7 +53,7 @@ Para mais detalhes [GitHub Wanderson Joner](https://github.com/wandersonjoner/cr
 Carreira desenvolvida na área de Tecnologia da Informação desde 2002, com ampla experiência em suporte e atendimento ao usuário, manutenção especializada em computadores, implantação, manutenção de sistemas e implementação de melhorias. Desenvolvendo trajetória em empresas multinacionais de grande porte. Ofereço forte atuação na construção de soluções, desenvolvendo e corrigindo aplicações com arquitetura REST desenvolvida com Spring, tenho domínio do mapeamento do ciclo de vida dos objetos, teste do verbos POST,GET, PUT e DELETE com PostMan, Query com Criteria, migração com Flyway, Maven, GitHub. Sistemas alinhados aos objetivos da empresa, também dou aula de Informática Básica para o Trabalho no Projeto Bolsa Futuro do Estado de Goiás e dou aulas para a Plataforma de Cursos On-line / Presêncial, The Future Escola de Tecnologia da Informação (Montagem e configuração, Word, Excel, compactar arquivos, navegação segura na internete etc.).
 Desenvolvedor de Sistemas nas Linguagens Java EE, JavaScript, Angular 2, MYSQL.
 
-### Java com a Tecnologia REST criando aplicacoes RESTful com Spring FramerWork
+### Java com a Tecnologia REST criando aplicacoes RESTful com Spring FrameWork
   Segue alguns Sistemas Desenvolvidos em Java que estão no GitHub:
     - Inventario de Computadores https://github.com/wandersonjoner/inventario-computadores
     - Controle de Alunos https://github.com/wandersonjoner/ApiRESTful
