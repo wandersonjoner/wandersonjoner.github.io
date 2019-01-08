@@ -63,7 +63,7 @@ Desenvolvedor de Sistemas nas Linguagens Java EE, JavaScript, Angular 2, MYSQL.
 ### Support or Contact
 E-Mail: wandersonjoner@hotmail.com
 Cel / WhatsApp: 61 98487-1399
-Santa Maria Sul – Brasilia – DF, CNH: B
+Santa Maria Sul – Brasilia – DF, CNH: B.
 GitHub : https://github.com/wandersonjoner
 Linkedin: https://www.linkedin.com/in/wanderson-joner-silva-cruz-8900ab48/
 Meu Canal de Cursos no Youtube: https://www.youtube.com/channel/UCm77ojeCNi9rdgxFoP4SXEw/videos?view_as=subscriber
