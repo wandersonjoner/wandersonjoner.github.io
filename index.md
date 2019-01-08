@@ -1,37 +1,68 @@
 ## Welcome to GitHub Pages
+WANDERSON JONER SILVA CRUZ
 
-You can use the [editor on GitHub](https://github.com/wandersonjoner/wandersonjoner.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+OBJETIVO
+Desenvolver e Reparar Sistemas de Informacao
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Segue alguns Sistemas Desenvolvidos em JavaScript que estão online:
+  
+  - Detector de Rostos e Download Automático https://rostodetector.netlify.com/
+  - Detector de Nudes https://nudesremove.netlify.com/
+  - Atenas Assitente Pessoal https://atenas.netlify.com/
+  - Mario Game https://mariogamejs.netlify.com/
+  
 
 ```markdown
-Syntax highlighted code block
+Servidor web em JavaScript
 
-# Header 1
-## Header 2
-### Header 3
+const express = require('express')
+const path = require('path')
+const app = express()
+const port = process.env.PORT || 3000
 
-- Bulleted
-- List
+const bodyParser = require('body-parser')
+const pessoas = require('./routes/pessoas')
 
-1. Numbered
-2. List
+const mysql = require('mysql')
+const connection = mysql.createConnection({
+    host: '127.0.0.1',
+    user: 'root',
+    password: 'sua senha',
+    database: 'nome do seu Banco de dados'
+})
 
-**Bold** and _Italic_ and `Code` text
+const dependencies = {
+    connection
+}
 
-[Link](url) and ![Image](src)
+app.use(bodyParser.urlencoded( { extended : false } ))
+app.use(express.static('public'))
+app.get('/', (req, res)=> res.render('home'))
+app.set('views', path.join(__dirname, 'views'))
+app.set('view engine', 'ejs')
+app.use('/pessoas', pessoas(dependencies))
+connection.connect(()=>{
+    app.listen(port, ()=> console.log('Listering on port:'+port))
+})
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Para mais detalhes [GitHub Wanderson Joner](https://github.com/wandersonjoner/crudpro).
 
-### Jekyll Themes
+###  RESUMO DE QUALIFICACÕES
+Carreira desenvolvida na área de Tecnologia da Informação desde 2002, com ampla experiência em suporte e atendimento ao usuário, manutenção especializada em computadores, implantação, manutenção de sistemas e implementação de melhorias. Desenvolvendo trajetória em empresas multinacionais de grande porte. Ofereço forte atuação na construção de soluções, desenvolvendo e corrigindo aplicações com arquitetura REST desenvolvida com Spring, tenho domínio do mapeamento do ciclo de vida dos objetos, teste do verbos POST,GET, PUT e DELETE com PostMan, Query com Criteria, migração com Flyway, Maven, GitHub. Sistemas alinhados aos objetivos da empresa, também dou aula de Informática Básica para o Trabalho no Projeto Bolsa Futuro do Estado de Goiás e dou aulas para a Plataforma de Cursos On-line / Presêncial, The Future Escola de Tecnologia da Informação (Montagem e configuração, Word, Excel, compactar arquivos, navegação segura na internete etc.).
+Desenvolvedor de Sistemas nas Linguagens Java EE, JavaScript, Angular 2, MYSQL.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wandersonjoner/wandersonjoner.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Java com a Tecnologia REST criando aplicacoes RESTful com Spring FramerWork
+  Segue alguns Sistemas Desenvolvidos em Java que estão no GitHub:
+    - Inventario de Computadores https://github.com/wandersonjoner/inventario-computadores
+    - Controle de Alunos https://github.com/wandersonjoner/ApiRESTful
+    - Seguranca com OAUTH https://github.com/wandersonjoner/Oauth, também video explicativo no youtube https://www.youtube.com/watch?v=Pp1Ipg2vi70&t=331s
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+E-Mail: wandersonjoner@hotmail.com
+Cel / WhatsApp: 61 98487-1399
+Santa Maria Sul – Brasilia – DF, CNH: B
+GitHub : https://github.com/wandersonjoner
+Linkedin: https://www.linkedin.com/in/wanderson-joner-silva-cruz-8900ab48/
+Meu Canal de Cursos no Youtube: https://www.youtube.com/channel/UCm77ojeCNi9rdgxFoP4SXEw/videos?view_as=subscriber
