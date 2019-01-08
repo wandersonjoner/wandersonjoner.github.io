@@ -4,12 +4,13 @@ WANDERSON JONER SILVA CRUZ
 OBJETIVO
 Desenvolver e Reparar Sistemas de Informacao
 
-Segue alguns Sistemas Desenvolvidos em JavaScript que estão online:
+Segue alguns Sistemas Desenvolvidos por mim em JavaScript, Java, Html, CSS etc. que estão online:
   
   - Detector de Rostos e Download Automático https://rostodetector.netlify.com/
   - Detector de Nudes https://nudesremove.netlify.com/
   - Atenas Assitente Pessoal https://atenas.netlify.com/
   - Mario Game https://mariogamejs.netlify.com/
+  - Curso de Informática Básica para o Trabalho https://cursoinformatica.netlify.com/
   
 
 ```markdown
